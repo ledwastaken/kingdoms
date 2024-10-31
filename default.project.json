@@ -1,0 +1,60 @@
+{
+  "name": "Kingdoms",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Ground": {
+        "$className": "Part",
+        "$properties": {
+          "Color": [0.627451, 0.541176, 0.380392],
+          "Material": "SmoothPlastic",
+          "Locked": true,
+          "CFrame": [0, -6.5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+          "Size": [2048, 7, 2048],
+          "Anchored": true,
+          "TopSurface": "Smooth",
+          "BottomSurface": "Smooth"
+        }
+      },
+      "Water": {
+        "$className": "Part",
+        "$properties": {
+          "Color": [0.0156863, 0.686275, 0.92549],
+          "Material": "SmoothPlastic",
+          "Transparency": 0.2,
+          "Locked": true,
+          "CFrame": [0, -1.5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+          "Size": [2048, 3, 2048],
+          "CanCollide": false,
+          "Anchored": true,
+          "TopSurface": "Smooth",
+          "BottomSurface": "Smooth"
+        }
+      }
+    }
+  }
+}

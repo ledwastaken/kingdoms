@@ -1,0 +1,12 @@
+# Project place file
+/kingdoms.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# VScode config folder
+.vscode
+
+# sourcemap for intellisense
+sourcemap.json
